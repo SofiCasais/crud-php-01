@@ -1,0 +1,79 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+
+h1{
+    color: rgb(133, 34, 34);
+    text-decoration: 2px brown dashed underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2{
+    color: rgb(116, 29, 29);
+    text-decoration: 1px brown underline;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+table {
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;    /*recordar el solid!!*/
+    color:rgb(82, 22, 22);
+    padding: 10px;
+} 
+
+th{
+    background-color: rgb(134, 40, 40);
+    color: bisque;
+}
+
+.nuevo{
+    margin-top: 20px;
+}
+
+.nuevoestudiante{
+    font-style: italic;
+    color:rgb(133, 34, 34);
+    font-size: larger;
+    border-radius: 10px;
+    border: 2px solid rgb(133, 34, 34);
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+ .actualizar, .guardar{
+    background-color: rgb(150, 90, 62);
+    font-style: italic;
+    color:antiquewhite;
+    border-radius: 15px;
+    border: 2px solid rgb(83, 22, 22);
+    padding: 5px;
+    text-decoration: none;
+ }
+
+a{
+    font-style: italic;
+    color:rgb(82, 22, 22);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(49, 13, 13);
+}
+
+
+
+@import url(w3.css);
